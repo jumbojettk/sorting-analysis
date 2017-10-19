@@ -1,0 +1,20 @@
+﻿Build started 5/12/2015 6:01:13 PM.
+     1>Project "E:\School\2014 - 2015\2015 Spring\CSC 2431\Homework 3\SortingEfficiencyComparison\SortingEfficiencyComparison\SortingEfficiencyComparison.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt InsertionSort.cpp QuickSort.cpp SortData.cpp clientSortingEfficiencyComparison.cpp
+         clientSortingEfficiencyComparison.cpp
+         SortData.cpp
+         QuickSort.cpp
+         InsertionSort.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\School\2014 - 2015\2015 Spring\CSC 2431\Homework 3\SortingEfficiencyComparison\Debug\SortingEfficiencyComparison.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\School\2014 - 2015\2015 Spring\CSC 2431\Homework 3\SortingEfficiencyComparison\Debug\SortingEfficiencyComparison.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\School\2014 - 2015\2015 Spring\CSC 2431\Homework 3\SortingEfficiencyComparison\Debug\SortingEfficiencyComparison.lib" /MACHINE:X86 Debug\clientSortingEfficiencyComparison.obj
+         Debug\InsertionSort.obj
+         Debug\QuickSort.obj
+         Debug\SortData.obj
+         SortingEfficiencyComparison.vcxproj -> E:\School\2014 - 2015\2015 Spring\CSC 2431\Homework 3\SortingEfficiencyComparison\Debug\SortingEfficiencyComparison.exe
+     1>Done Building Project "E:\School\2014 - 2015\2015 Spring\CSC 2431\Homework 3\SortingEfficiencyComparison\SortingEfficiencyComparison\SortingEfficiencyComparison.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.91

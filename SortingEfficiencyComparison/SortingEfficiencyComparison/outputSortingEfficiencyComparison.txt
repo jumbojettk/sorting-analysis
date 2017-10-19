@@ -1,0 +1,90 @@
+*****Welcome to Sorting Efficiency Comparison by Napon Krassner (Jett)*****
+
+****************Insertion Sort testing: ****************
+
+====>Unsorted Dataset size(10): <====
+    First part of array data:
+            757147  167851000  301413356  336971124  659598368  160567225  39174
+9387    4890851   35766290   26239572
+    Last  part of array data:
+          26239572   35766290    4890851  391749387  160567225  659598368  33697
+1124  301413356  167851000     757147
+
+====>Sorted Dataset size(10): <====
+    First part of array data:
+            757147    4890851   26239572   35766290  160567225  167851000  30141
+3356  336971124  391749387  659598368
+    Last  part of array data:
+         659598368  391749387  336971124  301413356  167851000  160567225   3576
+6290   26239572    4890851     757147
+
+Dataset Size=       10 Num Ops = 67
+
+====>Unsorted Dataset size(100000): <====
+    First part of array data:
+            757147  167851000  301413356  336971124  659598368  160567225  39174
+9387    4890851   35766290   26239572
+    Last  part of array data:
+         595992024   28462203    8850967  144237780  848221333   62571047  36364
+9084   87816456   52554924  544679688
+
+====>Sorted Dataset size(100000): <====
+    First part of array data:
+                 0          0          0          0          0          0
+   0       1736       2950       3436
+    Last  part of array data:
+        1070990635 1069909134 1069810015 1068308201 1066180500 1065691669 106494
+4902 1064284920 1063492376 1062953400
+
+Dataset Size=   100000 Num Ops = 5013542335
+Dataset Size=       10 Num Ops = 67
+Dataset Size=      100 Num Ops = 5307
+Dataset Size=     1000 Num Ops = 503789
+Dataset Size=    10000 Num Ops = 50119753
+Dataset Size=   100000 Num Ops = 5013542335
+
+
+****************QuickSort testing: ****************
+
+====>Unsorted Dataset size(10): <====
+    First part of array data:
+            757147  167851000  301413356  336971124  659598368  160567225  39174
+9387    4890851   35766290   26239572
+    Last  part of array data:
+          26239572   35766290    4890851  391749387  160567225  659598368  33697
+1124  301413356  167851000     757147
+
+====>Sorted Dataset size(10): <====
+    First part of array data:
+            757147    4890851   26239572   35766290  160567225  167851000  30141
+3356  336971124  391749387  659598368
+    Last  part of array data:
+         659598368  391749387  336971124  301413356  167851000  160567225   3576
+6290   26239572    4890851     757147
+
+Dataset Size=       10 Num Ops = 135
+
+====>Unsorted Dataset size(1000000): <====
+    First part of array data:
+            757147  167851000  301413356  336971124  659598368  160567225  39174
+9387    4890851   35766290   26239572
+    Last  part of array data:
+          23364312  629204328  628153736  125026180  430828822  471400412  53739
+9237  246461500  993306750  861147865
+
+====>Sorted Dataset size(1000000): <====
+    First part of array data:
+                 0          0          0          0          0          0
+   0          0          0          0
+    Last  part of array data:
+        1071907551 1071842072 1071088554 1071056448 1071055745 1070990635 107079
+4405 1070694492 1070499430 1070467508
+
+Dataset Size=  1000000 Num Ops = 66367310
+Dataset Size=       10 Num Ops = 135
+Dataset Size=      100 Num Ops = 2108
+Dataset Size=     1000 Num Ops = 29264
+Dataset Size=    10000 Num Ops = 456287
+Dataset Size=   100000 Num Ops = 5465629
+Dataset Size=  1000000 Num Ops = 66367310
+Press any key to continue . . .
